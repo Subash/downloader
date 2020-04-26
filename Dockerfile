@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine
 RUN apk add --no-cache aria2
 RUN adduser -D -g '' aria2
 USER aria2
